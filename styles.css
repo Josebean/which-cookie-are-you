@@ -1,12 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.phone-container {
+    width: 375px;
+    position: relative;
+    flex-direction: column;
+
+
+}
+
 .option-button {
-    background-color: #fccdd3;
+    background-color: #FF63C3;
+    height: 40px;
     color: #2a3031;
     border: none;
     padding: 10px;
     margin: 5px 0;
-    border-radius: 100px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 14px;
+    font-weight: 600;
     width: 100%;
+    box-shadow: 5px 5px #66C3FF;
 
+}
+
+.option-button:hover {
+    background-color: #F0CF65;
+    box-shadow: 5px 5px #F37748;
 }
