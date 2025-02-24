@@ -4,10 +4,7 @@ body {
 }
 
 .phone-container {
-    width: 375px;
-    position: relative;
-    flex-direction: column;
-
+max-width: 500;
 
 }
 
@@ -16,18 +13,27 @@ body {
     height: 40px;
     color: #2a3031;
     border: none;
-    padding: 10px;
+    padding: 25px 80px;
     margin: 5px 0;
     border-radius: 10px;
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
     width: 100%;
-    box-shadow: 5px 5px #66C3FF;
+    box-shadow: 0px 6px #66C3FF;
+    margin: 10px auto;
+    position: relative;
 
 }
 
 .option-button:hover {
     background-color: #F0CF65;
-    box-shadow: 5px 5px #F37748;
+    box-shadow: 0 4px #F37748;
+    top: 2px;
+}
+
+.option-button:active {
+    background-color: #F0CF65;
+    box-shadow: none;
+    top: 6px;
 }
