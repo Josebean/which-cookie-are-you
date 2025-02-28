@@ -8,22 +8,38 @@
 </head>
 
 <body>
-    <div class="phone-container">
+    
+
+    <div id="starting-screen" class="start-container">
+        <h2>Mock Quiz</h2>
+        <button id="start-button" class="start-button">Start</button>
+
+        
+    </div>
+
+    <div id="quiz-container" style="display: none">
     
     <!-- Question Div -->
     <div>
-
+        <h3 id="question"></h3>
     </div>
     
-    <!-- Choices Div --> 
-    <div>
-        <button class="option-button">Choice A</button>
-        <button class="option-button">Choice B</button>
-        <button class="option-button">Choice C</button>
-        <button class="option-button">Choice D</button>
+    <!-- Aswers Div --> 
+    <div id="answers">
+        <button id="1" class="answer-button"></button>
+        <button id="2" class="answer-button"></button>
+        <button id="3" class="answer-button"></button>
+        <button id="4" class="answer-button"></button>
 
     </div>
     </div>
+
+    <div id="results-screen" style="display: none;">
+        <h1>Your Results are Ready</h1>
+        <h3 id="result"></h3>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 
 </html>

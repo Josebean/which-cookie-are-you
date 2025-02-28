@@ -1,19 +1,31 @@
 body {
-    display: flex;
     justify-content: center;
 }
 
-.phone-container {
-max-width: 500;
+div {
+    display: block;
+    justify-content: center;
+}
+
+h2 {
+    
+}
+.start-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz-container {
+
 
 }
 
-.option-button {
+.answer-button {
     background-color: #FF63C3;
     height: 40px;
     color: #2a3031;
     border: none;
-    padding: 25px 80px;
     margin: 5px 0;
     border-radius: 10px;
     cursor: pointer;
@@ -23,17 +35,41 @@ max-width: 500;
     box-shadow: 0px 6px #66C3FF;
     margin: 10px auto;
     position: relative;
+    align-items: center;
+    transition: 0.2s;
 
 }
 
-.option-button:hover {
+.answer-button:hover {
     background-color: #F0CF65;
     box-shadow: 0 4px #F37748;
     top: 2px;
 }
 
-.option-button:active {
+.answer-button:active {
     background-color: #F0CF65;
     box-shadow: none;
     top: 6px;
+}
+
+.answer {
+    width: 100%;
+}
+
+.start-button {
+    max-width: 100px;
+    background-color: #FF63C3;
+    height: 40px;
+    color: #2a3031;
+    border: none;
+    margin: 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0px 6px #66C3FF;
+    margin: 10px auto;
+    position: relative;
+    align-items: center;
+    transition: 0.2s;
 }
